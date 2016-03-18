@@ -1,0 +1,165 @@
+@font-face {
+	font-family: 'audimat_bold';
+	src: url('./Fonts/AUdimat-Bold.otf');
+}
+
+@font-face {
+	font-family: 'line_art';
+	src: url('./Fonts/LINE_ART_by_aleph_corporation.otf');
+}
+
+html, body {
+  background-color: #FAEAD3;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'audimat_bold', serif;
+}
+
+h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+#intro {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("./Images/palmTrees0.jpeg");
+	background-size: cover;
+}
+
+#navBar {
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+}
+	#navBar ul {
+	  list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	#navBar ul li {
+		display: inline;
+		padding: 5px;
+	}
+	#navBar a {
+		color: #FAEAD3;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-family: 'audimat_bold';
+		font-size: 17px;
+	}
+
+#splash {
+	text-align:center;
+	color: white;
+	margin-top: 37vh;
+}
+	#splash h1 {
+		color: white;
+	  text-transform:uppercase;
+	  font-family: 'audimat_bold', 'line_art', serif;
+		font-size: 60px;
+	}
+
+/*Form Container*/
+
+#signUp {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	min-height: 100vh;
+	color: #565656;
+	display: none;
+}
+
+#signUp #navBar {
+	padding-top: 15px;
+	color: #565656;
+	text-transform: uppercase;
+}
+	#signUp #navBar ul {
+	  list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	#signUp #navBar ul li {
+		display: inline;
+		padding: 5px;
+	}
+	#signUp #navBar a {
+		color: #565656;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-family: 'audimat_bold';
+		font-size: 17px;
+	}
+	#signUp #splash {
+		text-align:center;
+		color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#signUp #splash h1 {
+		color: #565656;
+	  text-transform:uppercase;
+	  font-family: 'audimat_bold', 'line_art', serif;
+		font-size: 25px;
+	}
+
+/*About*/
+#about {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #BCDAD8;
+	display: none;
+}
+
+#about #navBar {
+	padding-top: 15px;
+	color: white;
+}
+	#about #navBar ul {
+	  list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	 #about #navBar ul li {
+		display: inline;
+		padding: 5px;
+	}
+	 #about #navBar a {
+		color: #565656;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-family: 'audimat_bold';
+		font-size: 17px;
+	}
+	#about p {
+		color: #565656;
+	}
+	#about #splash {
+		color: #565656;
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+		#about #splash h1 {
+			color: #565656;
+		  text-transform:uppercase;
+		  font-family: 'audimat_bold', 'line_art', serif;
+			font-size: 35px;
+		}
+
+	#text-box {
+		margin: 0 auto;
+		padding-top: 10px;
+		/*border-style: solid;
+		border-color: white;*/
+		width: 58vw;
+		padding-bottom: 20px;
+	}
