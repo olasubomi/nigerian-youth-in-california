@@ -1,0 +1,96 @@
+#intro {
+	margin: 0;
+	padding: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+	background-image: url("../Images/Overlay.png");
+	background-size: cover;
+}
+
+#navBar {
+	padding-top: 15px;
+	text-align: left;
+}
+	#navBar ul {
+		margin: 15px 0 0 0;
+		padding: 0;
+	}
+	#navBar ul li {
+		width: 100px;
+		display: inline;
+		font-size: 15pt;
+		margin: 0 40px;
+		padding: 15px 10px;
+		border-bottom: solid #FFFFFF 1px;
+	}
+	#navBar a {
+		color: #FFFFFF;
+	  text-decoration: none;
+	}
+
+#splash {
+	text-align:center;
+	color: white;
+	margin-top: 33vh;
+}
+	#splash h1 {
+		/*text-transform: uppercase;*/
+		color: white;
+		font-size: 45pt;
+	}
+
+/*About*/
+#about {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #1D1D1D;
+	color: #FDFDFD;
+	/*display: none;*/
+}
+
+#about #navBar {
+	padding-top: 15px;
+	text-align: left;
+}
+	#about #navBar ul {
+		margin: 15px 0 0 0;
+		padding: 0;
+	}
+	#about #navBar ul li {
+		width: 100px;
+		display: inline;
+		font-size: 15pt;
+		margin: 0 40px;
+		padding: 15px 10px;
+		border-bottom: solid #FFFFFF 1px;
+	}
+	#about #navBar a {
+		color: #FFFFFF;
+	  text-decoration: none;
+	}
+
+	#about #splash {
+		margin-top: 15px;
+	}
+		#about #splash h1 {
+			font-size: 40pt;
+		}
+
+	#text-container {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#text-box {
+		font-size: 18pt;
+		padding-top: 10px;
+		margin: 0 auto;
+		width: 50vw;
+		padding-bottom: 20px;
+	}
+
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 0 50px #222;
+}

@@ -1,0 +1,21 @@
+* {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#page-content {
+  width: 100vw;
+  min-height: 100vh;
+  margin: auto;
+}
+
+#infographics {
+  width: 50vw;
+  min-height: 100vh;
+  float: left;
+}
+
+#signup-form {
+  min-height: 100vh;
+  margin-left: 50vw;
+	background-color: #EBEBEB;
+}

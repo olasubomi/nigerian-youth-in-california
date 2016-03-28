@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'nexa_bold';
+	src: url('./Fonts/Nexa-Bold.otf');
+}
+
+@font-face {
+	font-family: 'nexa_light';
+	src: url('./Fonts/Nexa-Light.otf');
+}
+
+@font-face {
+	font-family: 'audimat_bold';
+	src: url('./Fonts/AUdimat-Bold.otf');
+}
+
+@font-face {
+	font-family: 'line_art';
+	src: url('./Fonts/LINE_ART_by_aleph_corporation.otf');
+}
+
+html, body, input, select {
+  background-color: #000000;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	width: 100%;
+	font-family: 'nexa_light', 'audimat_bold', serif;
+}
+
+h1, p, {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'nexa_bold';
+}
