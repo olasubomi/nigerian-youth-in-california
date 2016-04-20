@@ -12,10 +12,12 @@
   width: 50vw;
   min-height: 100vh;
   float: left;
+  background-color: #32425A;
 }
 
 #signup-form {
   min-height: 100vh;
   margin-left: 50vw;
 	background-color: #EBEBEB;
+}
 }
