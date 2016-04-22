@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+CTYPE html>
 <html >
   <head>
 
     <title>Nigerian Youth in California</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./general.css">
-    <link rel="stylesheet" href="./Fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
     <meta charset="utf-8" />
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initital-scale=1" />
+
+    <!--For directory-->
+    <link rel="stylesheet" href="./directory/css/directory.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./Fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
 		<!--<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>-->
     <script type="text/javascript" src="./jquery.js"></script>
@@ -24,57 +28,78 @@
 
     <div id="intro">
 
-      <div id="navBar">
-        <ul>
-          <a class="fancybox fancybox.iframe" href="./signup/"><li>Join Us</li></a>
+      <button class="js-menu menu" type="button">
+	       <span class="bar"></span>
+       </button>
+
+      <nav>
+      	<ul>
+          <a href="./signup/"><li>Join Us</li></a>
+          <a href="#directory" class="directory-link"><li>Directory</li></a>
           <a href="#about" class="about-link"><li>About</li></a>
-          <a href="#about" class="about-link"><li>Politics</li></a>
-          <a href="#about" class="about-link"><li>Chats</li></a>
-          <a href="#about" class="about-link"><li>Uploads</li></a>
-        </ul>
+      	</ul>
+      </nav>
+
+      <div id="splash">
+        <h1>Nigerian<br>Youth<br>in<br>California</h1>
+      </div>
+
+    </div>
+
+    <div id="directory">
+
+      <div id="hidden_clicker" style="display:none">
+        <a id="hiddenclicker" href="http://asdf.com" class="fancybox fancybox.iframe"></a>
       </div>
 
       <div id="splash">
-        <h1>Nigerian Youth In California</h1>
+        <h1>+ Directory</h1>
+      </div>
+
+      <div id="multiple-datasets">
+        <input class="typeahead" type="text" placeholder="Search for people or schools" style="background-color: #EBEBEB; border: none; border-bottom: 2px solid #ccc;">
+      </div>
+
+      <div class="criteria">
+        <div class="search-criteria">
+          <a href="./directory/people/index.php?school="><h1>Search by name</h1></a>
+        </div>
+        <div class="search-line"></div>
+        <div class="search-criteria">
+          <a href="./directory/schools/"><h1>Search by school</h1></a>
+        </div>
+        <div class="search-line"></div>
       </div>
 
     </div>
 
     <div id="about">
 
-      <div id="navBar">
-        <ul>
-          <li><a href="#intro" class="home-link">Home</a></li>
-        </ul>
+      <div id="splash">
+        <h1>+ About</h1>
       </div>
 
       <div id="text-container">
-
-        <div id="splash">
-          <h1>About</h1>
-        </div>
-
         <div id="text-box">
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
-              Section 1.10.32 of "de Finibus Bonorum et Malorum", written by
-              Cicero in 45 BC"Sed ut perspiciatis unde omnis iste natus error
-              sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-              architecto beatae vitae dicta.
-            </p>
+          <p>
+            With your help, we are creating a platform for the Nigerian Youth
+            in the diaspora to build a strong network amongst ourselves and
+            allocate our resources strategically to create a fresh understanding
+            of our history and prepare ourselves as leaders as tomorrow.
+          </p>
         </div>
-
       </div>
 
+
+
     </div>
+
+    <script type="text/javascript" src="./directory/js/bloodhound.js"></script>
+    <script type="text/javascript" src="./directory/js/typeahead.js"></script>
+    <script type="text/javascript" src="./directory/js/the-basics.js"></script>
 
   </body>
 
 </html>
+
+
